@@ -1,0 +1,51 @@
+div > p.msg-erro{
+    color: red;
+}
+
+div.top-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 16;
+}
+
+table{
+    margin: 0 auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+th{
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+}
+
+td{
+    padding: 8px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+button{
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+button.create-btn{
+    background-color: #395dab
+}
+
+button.details-btn{
+    background-color: #d3c631
+}
+
+button.edit-btn{
+    background-color: #45a049
+}
+
+button.return-btn{
+    background-color: #e74c3c
+}

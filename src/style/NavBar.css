@@ -1,0 +1,6 @@
+header{
+    background-color: rgb(195, 195, 195);
+    border-bottom: 1px solid #e6e6e6;
+    padding: 12px 20px;
+    display: flex;
+}

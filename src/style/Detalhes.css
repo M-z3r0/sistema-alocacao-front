@@ -1,0 +1,20 @@
+div.details-div{
+    width: 50%;
+    margin: 0 auto;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+div.details-div > div {
+    margin-top: 20px;
+}
+
+button.edit-btn{
+    background-color: #45a049
+}
+
+button.return-btn{
+    background-color: #e74c3c
+}
