@@ -36,19 +36,19 @@ export default function ListarGrupoVeiculos(){
     };
 
     if(loading){
-      return <p>Carregando veículos...</p>;
+      return <p>Carregando grupo de veículos...</p>;
     }
 
     return(
       <div>
         <div className="top-div">
-          <h2>Veículos</h2>
+          <h2>Grupo Veículos</h2>
           <button className="create-btn" onClick={() => navigate("/grupoVeiculos/novo")}>
-            Criar Novo Veículo
+            Criar Novo Grupo de Veículos
           </button>
         </div>
       {grupoVeiculos.length === 0 ? (
-        <p>Nenhum veículo encontrado.</p>
+        <p>Nenhum grupo veículo encontrado.</p>
       ) : (
         <table>
           <thead>

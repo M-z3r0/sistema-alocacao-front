@@ -37,7 +37,7 @@ export default function ListarEmpresaAssistencia(){
   };
 
   if(loading){
-    return <p>Carregando veículos...</p>;
+    return <p>Carregando empresas de assistência...</p>;
   }
 
   return(
