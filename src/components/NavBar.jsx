@@ -1,6 +1,4 @@
 import { NavLink } from "react-router-dom";
-import { useEffect, useState } from "react";
-//import api from "../api/api";
 import "../style/NavBar.css";
 
 const linkStyle = {
@@ -16,60 +14,6 @@ const activeStyle = {
 };
 
 export default function Navbar() {
-  // const [grupoVeiculos, setGrupoVeiculos] = useState([]);
-  // const [empresasAssistencia, setEmpresasAssistencia] = useState([]);
-  // const [planoAssistencia, setPlanoAssistencia] = useState([]);
-  // const [veiculo, setVeiculos] = useState([]);
-  
-  // const carregarGrupoVeiculos = async () => {
-  //   try {
-  //     const res = await api.get("/GrupoVeiculo");
-  //     setGrupoVeiculos(res.data);
-  //   } catch (err) {
-  //     console.error("Erro ao buscar grupos de veículos:", err);
-  //   }
-  //   finally{
-  //     console.clear();
-  //   }
-  // };
-  // const carregarEmpresas = async () => {
-  //   try {
-  //     const res = await api.get("/EmpresaAssistencia");
-  //     setEmpresasAssistencia(res.data);
-  //   } catch (err) {
-  //     console.error("Erro ao buscar empresas de assistência:", err);
-  //   }finally{
-  //     console.clear();
-  //   }
-  // };
-  // const carregarVeiculos = async () => {
-  //   try {
-  //     const res = await api.get("/Veiculo");
-  //     setVeiculos(res.data);
-  //   } catch (err) {
-  //     console.error("Erro ao buscar grupos de veículos:", err);
-  //   }finally{
-  //     console.clear();
-  //   }
-  // };
-  // const carregarPlanos = async () => {
-  //   try {
-  //     const res = await api.get("/PlanoAssistencia");
-  //     setPlanoAssistencia(res.data);
-  //   } catch (err) {
-  //     console.error("Erro ao buscar empresas de assistência:", err);
-  //   }finally{
-  //     console.clear();
-  //   }
-  // };
-  
-  // useEffect(() => {
-  //   carregarGrupoVeiculos();
-  //   carregarEmpresas();
-  //   carregarPlanos();
-  //   carregarVeiculos();
-  // }, []);
-
   return (
     <header>
     

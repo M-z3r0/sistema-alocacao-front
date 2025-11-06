@@ -99,7 +99,7 @@ export default function FormVeiculoAssistencia(){
             ))}
           </select>
           <div style={{ marginTop: 10 }}>
-            <button type="submit">{id ? "Salvar alterações" : "Criar Empresa"}</button>{" "}
+            <button type="submit">{id ? "Salvar alterações" : "Associar veículo"}</button>{" "}
             <button type="button" onClick={() => navigate("/veiculosAssistencia")}>Cancelar</button>
           </div>
         </form>
