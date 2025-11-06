@@ -72,7 +72,7 @@ export default function ListarPlanoAssistencia() {
                   <button className="edit-btn" onClick={() => navigate(`/planosAssistencia/editar/${p.id}`)}>
                     Editar
                   </button>{" "}
-                  <button className="return-btn" onClick={() => handleDelete(p.id)}>-
+                  <button className="return-btn" onClick={() => handleDelete(p.id)}>
                     Excluir
                   </button>
                 </td>

@@ -82,6 +82,7 @@ export default function FormVeiculoAssistencia(){
             Veículo:
           </label>
           <select name="veiculoId" value={form.veiculoId} onChange={handleChange}>
+            <option value="">Selecione um veículo</option>
             {veiculo.map((v) => (
               <option key={v.id} value={v.id}>
                 {v.modelo}
@@ -89,9 +90,10 @@ export default function FormVeiculoAssistencia(){
             ))}
           </select>
           <label>
-            ID do plano:
+            Plano de assistência:
           </label>
           <select name="planoId" value={form.planoId} onChange={handleChange}>
+            <option value="">Selecione um veículo</option>
             {planoAssistencia.map((p) => (
               <option key={p.id} value={p.id}>
                 {p.descricao}

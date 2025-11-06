@@ -82,6 +82,7 @@ export default function FormPlanoAssistencia() {
             <input type="text" name="cobertura" value={form.cobertura} onChange={handleChange} required />
           </label>
           <select name="empresaId" value={form.empresaId} onChange={handleChange}>
+            <option value="">Selecione uma empresa de assistência</option>
             {empresaAssistencia.map((e) => (
               <option key={e.id} value={e.id}>
                 {e.nome}

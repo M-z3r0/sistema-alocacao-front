@@ -84,6 +84,7 @@ export default function FormVeiculo() {
           </label>
           
           <select name="grupoId" value={form.grupoId} onChange={handleChange}>
+            <option value="">Selecione um grupo de veículo</option>
             {grupoVeiculos.map((g) => (
               <option key={g.id} value={g.id}>
                 {g.nome}
